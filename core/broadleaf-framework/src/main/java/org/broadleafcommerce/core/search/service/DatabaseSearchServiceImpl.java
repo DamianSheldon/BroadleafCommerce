@@ -98,10 +98,10 @@ public class DatabaseSearchServiceImpl implements SearchService {
         SearchResult result = new SearchResult();
         setQualifiedKeys(searchCriteria);
         List<Product> products = catalogService.findFilteredActiveProductsByQuery(query, searchCriteria);
-        List<SearchFacetDTO> facets = getSearchFacets();
-        setActiveFacets(facets, searchCriteria);
+//        List<SearchFacetDTO> facets = getSearchFacets();
+//        setActiveFacets(facets, searchCriteria);
         result.setProducts(products);
-        result.setFacets(facets);
+//        result.setFacets(facets);
         result.setTotalResults(products.size());
         result.setPage(1);
         result.setPageSize(products.size());

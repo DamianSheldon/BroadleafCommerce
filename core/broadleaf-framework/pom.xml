@@ -8,6 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>broadleaf-framework</artifactId>
     <name>BroadleafCommerce Framework</name>
+    <version>5.2.4.1-SNAPSHOT</version>
     <description>BroadleafCommerce Framework</description>
     <url>http://www.broadleafcommerce.org</url>
     <properties>
@@ -95,16 +96,19 @@
         <dependency>
             <groupId>org.broadleafcommerce</groupId>
             <artifactId>broadleaf-common</artifactId>
+            <version>5.2.4-GA</version>
         </dependency>
         <dependency>
             <groupId>org.broadleafcommerce</groupId>
             <artifactId>broadleaf-common</artifactId>
+            <version>5.2.4-GA</version>
             <classifier>tests</classifier>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.broadleafcommerce</groupId>
             <artifactId>broadleaf-profile</artifactId>
+            <version>5.2.4-GA</version>
         </dependency>
         <dependency>
             <groupId>commons-codec</groupId>
